@@ -1,0 +1,53 @@
+div.logo {
+	margin-top: 30vh;
+	margin-bottom: 100vh;
+	text-align:center;
+
+	div.klr {
+		@extend %header-font1;
+		font-size: 260px;
+		line-height: 200px;
+
+		span.k {
+			color: $pink;
+		}
+
+		span.l {
+			color: $tan;
+		}
+
+		span.r {
+			color: $orange;
+		}
+	}
+
+	div.kristierosado {
+		@extend %header-font2;
+		font-size:20px;
+		letter-spacing: 12px;
+	}
+
+	nav.links {
+		@extend %nav-font;
+
+		ul {
+			list-style: none;
+
+			li {
+				display: inline-block;
+
+				&.montauk, &.etc {
+					color: $pink;
+				}
+
+				&.bangkok {
+					color: $orange;
+				}
+
+				&.barcelona {
+					color: $tan;
+				}
+			}
+		}
+	}
+}

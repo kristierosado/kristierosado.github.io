@@ -1,0 +1,5 @@
+name: kristie rosado
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compact

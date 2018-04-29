@@ -1,0 +1,40 @@
+title: Montauk Home
+logo: /assets/img/montauk/montauk-icon.png
+details: located in Montauk, NY
+
+sections:
+- section:
+    title: INSPIRATION
+    text: The inspiration for this home comes from how plants are connected to the earth by its roots. The home shares the same idea of the roots being the lifeline that keeps the plants alive. This influences the floor plan. The rooms are connected by glass hallways like branches and fill the space with natural light.
+    images: 
+    - img: /assets/img/montauk/inspiration.jpg
+      desc: glass
+
+    - img: /assets/img/montauk/inspiration-2.jpg
+      desc: wood
+
+    - img: /assets/img/montauk/inspiration.jpg
+      desc: glass
+
+- section:
+    title: PLANS
+    text: 
+    images:
+    - img: /assets/img/montauk/bubble-diagram.jpg
+      desc: bubble diagram
+
+    - img: /assets/img/montauk/site-plan.jpg
+      desc: site plan
+
+    - img: /assets/img/montauk/floor-plan.jpg
+      desc: floor plan
+
+- section:
+    title: PERSPECTIVES
+    text: oasdfoandfjasdnfsadf
+    images:
+    - img: /assets/img/montauk/kitchen.jpg
+      desc: kitchen elevation
+
+    - img: /assets/img/montauk/sustain-living.png
+      desc: sustained living perspective

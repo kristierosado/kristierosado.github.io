@@ -1,0 +1,26 @@
+{% assign montauk = site.data.montauk %}
+
+<div id="montauk">
+	<div class="header">
+		<img src="{{ montauk.logo }}"/>
+		<div class="title">{{ montauk.title }}</div>
+		<div class="details">{{ montauk.details }}</div>
+	</div>
+
+	{% for s in montauk.sections %}
+		<div class="section">
+			<div class="sectionheader">{{ s.section.title }}</div>
+			<div class="text">{{ s.section.text }}</div>
+			<div class="images">
+				{% for img in s.section.images %}
+					<figure>
+						<img src="{{ img.img }}" />
+						<figcaption>
+							{{ img.desc }}
+						</figcaption>
+					</figure>
+				{% endfor %}
+			</div>
+		</div>
+	{%endfor %}
+</div>
