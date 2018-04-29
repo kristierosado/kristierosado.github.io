@@ -1,6 +1,9 @@
-title: Montauk Home
+id: assdfasdf
+title: asdsdfsdfb
 logo: /assets/img/montauk/montauk-icon.png
-details: located in Montauk, NY
+details: located in Bangkok, Thailand
+desc: Lorem ipsum dolor sit amet, in tempor dignissim forensibus vix, recusabo quaerendum et nec, alia signiferumque mei no. Per eu possit ocurreret temporibus. Cum cu erat adversarium, ex accumsan mentitum concludaturque pri. Ad sed elit nominati appellantur, in purto mucius mel. Cu nec definiebas delicatissimi, probo sensibus nec ex, dicant veniam luptatum vis in. Eu ius argumentum intellegebat, est id libris reprehendunt.
+color: orange
 
 sections:
 - section:
@@ -28,13 +31,3 @@ sections:
 
     - img: /assets/img/montauk/floor-plan.jpg
       desc: floor plan
-
-- section:
-    title: PERSPECTIVES
-    text: oasdfoandfjasdnfsadf
-    images:
-    - img: /assets/img/montauk/kitchen.jpg
-      desc: kitchen elevation
-
-    - img: /assets/img/montauk/sustain-living.png
-      desc: sustained living perspective

@@ -1,0 +1,30 @@
+{% for project_hash in site.data.projects %}
+	{% assign project = project_hash[1] %}
+	<div id="{{ project.id }}" class="project">
+		<div class="header">
+			<img src="{{ project.logo }}"/>
+			<div class="title">{{ project.title }}</div>
+			<div class="details {{project.color}}">( {{ project.details }} )</div>
+			<div class="desc">{{ project.desc }}</div>
+		</div>
+
+		{% for s in project.sections %}
+			<div class="section {{project.color}}-border">
+				<div class="sectionheader {{project.color}}-border">{{ s.section.title }}</div>
+				<div class="text">{{ s.section.text }}</div>
+				<div class="images">
+					{% for img in s.section.images %}
+						<a href="{{ img.img }}">
+							<figure>
+								<img src="{{ img.img }}" />
+								<figcaption>
+									{{ img.desc }}
+								</figcaption>
+							</figure>
+						</a>
+					{% endfor %}
+				</div>
+			</div>
+		{%endfor %}
+	</div>
+{% endfor %}

@@ -1,0 +1,49 @@
+body {
+	@extend %content-font;
+	font-size:19px;
+	width: 80%;
+	margin: 0 auto;
+
+	div {
+		margin: 10px 0 10px 0;
+	}
+
+	a {
+		&, &:hover, &:visited {
+			text-decoration: none;
+			color: black;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		width: 100%;
+	}
+	@media screen and (max-width: 500px) {
+		font-size:15px;
+	}
+}
+
+.pink {
+	color: $pink;
+}
+
+.tan {
+	color: $tan;
+}
+
+.orange {
+	color: $orange;
+}
+
+.pink {
+	border-color: $pink;
+}
+
+
+.tan-border {
+	border-color: $tan;
+}
+
+.orange-border {
+	border-color: $orange;
+}

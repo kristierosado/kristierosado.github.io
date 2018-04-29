@@ -1,0 +1,104 @@
+// Global project
+div.project {
+	margin-top: 100vh;		
+}
+
+// Project header details
+div.header {
+	margin-bottom:50px;
+	text-align:center;
+
+	div.title {
+		@extend %header-font1;
+		font-size:100px;
+		line-height:90px;
+		letter-spacing: 5px;
+
+		@media screen and (max-width:500px) {
+			font-size: 16vw;
+			line-height: 13vw;
+		}
+	}
+
+	img {
+		width: 30%;
+	}
+
+	div.details {
+		@extend %header-font2;
+		font-size: 18px;
+		text-transform: lowercase;
+		letter-spacing: 4px;
+
+		@media screen and (max-width:500px) {
+			font-size: 3.5vw;
+		}
+	}
+
+	div.desc {
+		width: 60%;
+		margin: auto;
+		margin-top:60px;
+		text-align: justify;
+
+		@media screen and (max-width:768px) {
+			width: 85%;
+		}
+	}
+}
+
+// Individual Section Content
+div.section {
+	margin-bottom: 50px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+
+	div.sectionheader {
+		font-size:22px;
+		font-weight:600;
+		padding-left:2px;
+		border-left-width: 3px;
+		border-left-style: solid;
+
+		@media screen and (max-width: 500px) {
+			font-size: 18px;
+		}
+	}
+
+	div.images {
+
+		figure {
+			margin: 0;
+			position: relative;
+			display: inline-block;
+
+			@media screen and (max-width: 500px) {
+				margin: 5px;
+				width: 95vw;
+				height: 95vw;
+			}
+
+			img {
+				width:370px;
+				height:370px;
+				margin:5px;
+				object-fit:cover;
+				border: 1px solid black;
+
+				@media screen and (max-width: 500px) {
+					width: 95vw;
+					height: 95vw;
+				}
+			}
+		
+			figcaption {
+				position:absolute;
+				top: 0;
+				padding: 5px;
+				background-color: white;
+				border: 1px solid black;
+			}	
+		}
+		
+	}
+}

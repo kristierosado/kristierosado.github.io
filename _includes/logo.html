@@ -1,26 +1,23 @@
 <div class="logo">
 	<div class="klr">
-		<span class="k">K</span>
-		<span class="l">L</span>
-		<span class="r">R</span>
+		<span class="pink">K</span>
+		<span class="tan">L</span>
+		<span class="orange">R</span>
 	</div>
 	<div class="kristierosado">
 		kristie rosado
 	</div>
 	<nav class="links">
 		<ul>
-			<li class="montauk">
-				<a href="#montauk">montauk home </a>|
-			</li>
-			<li class="bangkok">
-				<a href="#bangkok">bangkok pediatrics </a>|
-			</li>
-			<li class="barcelona">
-				<a href="#barcelona">stay barcelona </a>|
-			</li>
-			<li class="etc">
-				<a href="#etc">etcetera</a>
-			</li>
+			{% for project_has in site.data.projects %}
+				{% assign project = project_has[1] %}
+				<li class="{{ project.id }} {{ project.color }}-border">
+					<a href="#{{ project.id }}">{{ project.title }}</a>
+				</li>
+			{% endfor %}
+				<li class="etc">
+					<a href="#etc">etcetera</a>
+				</li>
 		</ul>
 	</nav>
 </div>
