@@ -21,17 +21,19 @@ sections:
     title: predesign
     images:
     - img: /assets/img/barcelona/pre-design/bubblediagram1.png
-      header: buttom diagram
+      header: bubble diagram
     - img: /assets/img/barcelona/pre-design/bubblediagram2.png
-      header: buttom diagram
+      header: bubble diagram
 
 - section:
     title: plans & elevations
     images:
+    - img: /assets/img/barcelona/plans-elevations/siteanalysis.jpg
+      header: site analysis
     - img: /assets/img/barcelona/plans-elevations/firstfloorplan.png
-      header: first floor plans
+      header: first floor plan
     - img: /assets/img/barcelona/plans-elevations/secondfloorplan.png
-      header: second floor plans 
+      header: second floor plan 
     - img: /assets/img/barcelona/plans-elevations/commonareaelev.png
       header: common area elevation
     - img: /assets/img/barcelona/plans-elevations/kitchen elevation.png
@@ -54,5 +56,5 @@ sections:
       header: shared room
       cap: 'There are three types of rooms that are available to book: shared, single, and wheelchair accessible. Individual rooms have access to a balcony and a personal bathroom.'
     - img: /assets/img/barcelona/renderings/singleroom.png
-      header: shared room
+      header: single room
       cap: Secure lockers are provided for guests to safely stow away their valuables. Luggage can also be placed under the beds to save space.
