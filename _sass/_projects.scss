@@ -59,6 +59,7 @@ div.section {
 		padding-left:2px;
 		border-left-width: 3px;
 		border-left-style: solid;
+		text-transform: capitalize;
 
 		@media screen and (max-width: 500px) {
 			font-size: 18px;
@@ -97,6 +98,9 @@ div.section {
 				padding: 5px;
 				background-color: white;
 				border: 1px solid black;
+				text-transform: lowercase;
+				letter-spacing: 3px;
+				font-size: 11px;
 			}	
 		}
 		
