@@ -1,0 +1,58 @@
+id: barcelona
+title: Stay Barcelona
+logo: /assets/img/barcelona/logo.png
+details: hospitality | youth hostel
+desc: Stay Barcelona is a youth hostel located in Barcelona, Spain. The four story building, with approximately 6,200 ft2 per floor, sits on the corner of a vibrant tourist area close to La Rambla. This youth hostel offers an affordable place to stay for young travelers on a budget, who want to experience the culture of Barcelona and surrounding areas. The space features an abundance of indoor and outdoor social areas to mingle with other guests.  
+color: tan
+
+sections: 
+- section:
+    title: inspiration
+    text:  Barcelona is a vibrant city filled with plenty of art, design, and culture. Everyday spent there is a new adventure. Stay Barcelona pays tribute to culture and travel through fun patterns and bright colors. The most prominent colors are red and yellow, colors of Spain's flag. The space has a traditional flavor with a modern twist.
+    images:
+    - img: /assets/img/barcelona/inspiration/fashion.jpg
+      header: fashion
+    - img: /assets/img/barcelona/inspiration/interiors.jpg
+      header: interiors
+    - img: /assets/img/barcelona/inspiration/mosaicpatterns.jpg
+      header: mosaic patterns
+
+- section:
+    title: predesign
+    images:
+    - img: /assets/img/barcelona/pre-design/bubblediagram1.png
+      header: buttom diagram
+    - img: /assets/img/barcelona/pre-design/bubblediagram2.png
+      header: buttom diagram
+
+- section:
+    title: plans & elevations
+    images:
+    - img: /assets/img/barcelona/plans-elevations/firstfloorplan.png
+      header: first floor plans
+    - img: /assets/img/barcelona/plans-elevations/secondfloorplan.png
+      header: second floor plans 
+    - img: /assets/img/barcelona/plans-elevations/commonareaelev.png
+      header: common area elevation
+    - img: /assets/img/barcelona/plans-elevations/kitchen elevation.png
+      header: kitchen elevation
+      cap: Preparing individual meals while traveling is a great way to save money. With plenty of fresh food markets in the area, guests can use the kitchen in the dining area to prepare their own delicious meals. Tools and appliances are available for guests to store, prep, and cook food.
+    - img: /assets/img/barcelona/plans-elevations/sharedroomelevation.png
+      header: shared room elevation
+    - img: /assets/img/barcelona/plans-elevations/reflectedceiling plan.jpg
+      header: reflected ceiling
+      cap: Throughout the space, Solatube, a brand of tubular skylights, provides natural light to rooms that have no windows. Capturing natural light provides an eco-friendly, cost effective solution, as well as a feeling of well-being for the room occupants.
+
+- section:
+    title: renderings
+    images:
+    - img: /assets/img/barcelona/renderings/reception.png
+      header: reception
+    - img: /assets/img/barcelona/renderings/lounge.png
+      header: lounge      
+    - img: /assets/img/barcelona/renderings/sharedroom.jpg
+      header: shared room
+      cap: 'There are three types of rooms that are available to book: shared, single, and wheelchair accessible. Individual rooms have access to a balcony and a personal bathroom.'
+    - img: /assets/img/barcelona/renderings/singleroom.png
+      header: shared room
+      cap: Secure lockers are provided for guests to safely stow away their valuables. Luggage can also be placed under the beds to save space.

@@ -1,0 +1,57 @@
+id: bangkok 
+title: Bangkok Pediatrics
+logo: /assets/img/bangkok/logo.png
+details: healthcare | pediatric facility
+desc: Bangkok Pediatrics is a non-profit inpatient facility in Thailand that provides medical care to children from infancy to puberty. Services are given to families near and far. The 5,000 square foot facility was designed to accommodate the needs of both patients and their families by creating a familiar, stress-free environment. 
+color: orange
+
+sections:
+- section:
+    title: inspiration
+    text:  Inspired by the lily pads that inhabit the bodies of water in Thailand, the interior of Bangkok Pediatrics follows a pond theme. Familar outdoor views cover the walls of the facility to make families feel right at home. To ensure a stress-free visit, a soothing color palete of cool blues, greens, and purples are used throughout the space.
+    images:
+    - img: /assets/img/bangkok/inspiration/lilypads.jpg
+      header: lilypads
+    - img: /assets/img/bangkok/inspiration/lotusflower.jpg
+      header: lotus flowers
+    - img: /assets/img/bangkok/inspiration/outdooractivities.png
+      header: outdoor activities
+
+- section:
+    title: predesign
+    images: 
+    - img: /assets/img/bangkok/pre-design/climateinfo.gif
+      header: climate info
+      cap: 'population: 8.281 million (2010) <br> average humidity: 60-80-% <br> average rainfall: 63.45" per year <br> average high temp: April 85 °F <br> average low temp: January 82 °F <br> prevailing winds: SW to NE <br> most sunshine hours: December 9 hrs'
+    - img: /assets/img/bangkok/pre-design/bangkokbubblediagram.png
+      header: bubble diagram
+
+- section:
+    title: plans & elevations
+    images:
+    - img: /assets/img/bangkok/plans-elevations/floorplan.png
+      header: floor plan
+    - img: /assets/img/bangkok/plans-elevations/extendedstayelevation.png
+      header: extended stay eleveation
+    - img: /assets/img/bangkok/plans-elevations/extendedstayelevation2.png
+      header: extended stay elevation
+      cap: For families traveling far for doctor visits, rooms are provided for an overnight stay. The extended stay room includes two single beds and a small lounge area. There is a private bathroom on the premises for families to use, if needed. 
+
+- section:
+    title: renderings
+    images:
+    - img: /assets/img/bangkok/renderings/waitingroom.png
+      header: waiting room
+    - img: /assets/img/bangkok/renderings/examroom.png
+      header: exam room
+    - img: /assets/img/bangkok/renderings/examroom2.png
+      header: exam room
+   
+- section:
+    title: tire racing concept
+    images: 
+    - img: /assets/img/bangkok/tire racing concept/tiretrack.png
+      header: tire racing concept
+      cap: Due to humid weather, many of the children activities in Thailand take place outside. A tire track surrounds the perimeter of the building, as tire racing is a popular game in the area. Considering safety and security, parents and staff watch children from windows located in the nurses' station, reception area, and waiting room 
+
+

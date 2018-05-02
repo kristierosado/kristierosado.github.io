@@ -11,44 +11,45 @@ sections:
     text:  Inspired by how plants are connected to the earth by their roots, the residence  explores the concept of roots being the lifeline that keeps nature alive. This "root like" structure influences the design of the floor plan. The rooms are connected by branch like glass hallways that fill the space with natural light. 
     images: 
     - img: /assets/img/montauk/inspiration/branches.jpg
-      desc: branches
+      header: branches
     - img: /assets/img/montauk/inspiration/glasshallway.jpg
-      desc: glass hallways
+      header: glass hallways
     - img: /assets/img/montauk/inspiration/parisbistrochair.png
-      desc: parisian bistros
+      header: parisian bistros
 
 - section:
     title: predesign
     images: 
     - img: /assets/img/montauk/pre-design/bubble diagram.jpg
-      desc: bubble diagram
+      header: bubble diagram
 
 - section:
-    title: plans and elevations
-    text: To assist with aging-in-place, the elder's home was designed to be barrier free. The kitchen countertops have a height of 32 inches, with a knee space clearance of 27 inches high and 8 inches deep. The bathroom features multiple grab bars and a walk-in bathtub.
+    title: plans & elevations
     images: 
     - img: /assets/img/montauk/plans and elevations/floorplan.jpg
-      desc: floor plan
+      header: floor plan
     - img: /assets/img/montauk/plans and elevations/siteplan.jpg
-      desc: site plan
+      header: site plan
     - img: /assets/img/montauk/plans and elevations/elevation1.jpg
-      desc: elevation
+      header: elevation
     - img: /assets/img/montauk/plans and elevations/elevation2.jpg
-      desc: elevation
+      header: elevation
+      cap: To assist with aging-in-place, the elder's home was designed to be barrier free. The kitchen countertops have a height of 32 inches, with a knee space clearance of 27 inches high and 8 inches deep. The bathroom features multiple grab bars and a walk-in bathtub.
+
 
 - section:
     title: renderings
     images: 
     - img: /assets/img/montauk/renderings/masterbedroom.png
-      desc: master bedroom
+      header: master bedroom
 
 - section:
     title: FF&E
     images: 
     - img: /assets/img/montauk/FF&E/kitchenpalette.png
-      desc: kitchen palette
+      header: kitchen palette
     - img: /assets/img/montauk/FF&E/livingroompalette.png
-      desc: living room palette
+      header: living room palette
 
 - section:
     title: Sustainable Solutions

@@ -17,9 +17,17 @@
 						<a href="{{ img.img }}">
 							<figure>
 								<img src="{{ img.img }}" />
-								<figcaption>
-									{{ img.desc }}
+								{% if img.header %}
+								<figcaption class="figheader">
+									{{ img.header }}
 								</figcaption>
+								{% endif %}
+								
+								{% if img.cap %}
+								<figcaption class="figcaption">
+									{{ img.cap }}
+								</figcaption>
+								{% endif %}
 							</figure>
 						</a>
 					{% endfor %}
